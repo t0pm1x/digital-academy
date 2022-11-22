@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ae7557b-860b-452b-8139-e7d4fec7feb6" name="Changes" comment="" />
+    <list default="true" id="8ae7557b-860b-452b-8139-e7d4fec7feb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/blocks/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/blocks/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Digital academy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DigitalAcademy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Nirvana.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Nirvana.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg-sprite/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -20,29 +36,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2GiRVeenRkhZJseNJGGrJezvCZg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/t0p_m/Documents/Digital academy/images",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/t0p_m/Documents/DigitalAcademy&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;Less&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\t0p_m\Documents\Digital academy\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\t0p_m\Documents\Digital academy\images" />
-      <recent name="C:\Users\t0p_m\Documents\Digital academy\styles" />
+      <recent name="C:\Users\t0p_m\Documents\Digital academy\src\html" />
+      <recent name="C:\Users\t0p_m\Documents\Digital academy\dist" />
+      <recent name="C:\Users\t0p_m\Documents\Digital academy\src\styles\vendor" />
+      <recent name="C:\Users\t0p_m\Documents\Digital academy\src\html\blocks" />
+      <recent name="C:\Users\t0p_m\Documents\Digital academy\src\styles" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,7 +78,17 @@
       <option name="presentableId" value="Default" />
       <updated>1666869442883</updated>
       <workItem from="1666869444087" duration="7669000" />
-      <workItem from="1666890058009" duration="693000" />
+      <workItem from="1666890058009" duration="1257000" />
+      <workItem from="1666978273763" duration="1318000" />
+      <workItem from="1667464985568" duration="2001000" />
+      <workItem from="1667467027579" duration="3160000" />
+      <workItem from="1668060085501" duration="198000" />
+      <workItem from="1668060294844" duration="9689000" />
+      <workItem from="1668072984367" duration="4353000" />
+      <workItem from="1668250731599" duration="28000" />
+      <workItem from="1669027274102" duration="16132000" />
+      <workItem from="1669047129690" duration="1060000" />
+      <workItem from="1669050187727" duration="3003000" />
     </task>
     <servers />
   </component>
