@@ -1,20 +1,20 @@
 @font-face {
   font-family: "mak";
-  src: url("../../assets/fonts/MAK-bold.woff") format("woff");
+  src: url("assets/fonts/MAK-bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "mak";
-  src: url("../../assets/fonts/MAK-light.woff") format("woff");
+  src: url("assets/fonts/MAK-light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 html,
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 body {
   -webkit-box-sizing: border-box;
@@ -27,18 +27,19 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  padding-top: 147px;
-  background-color: #DEDEDE;
-  background-image: url("../../assets/images/noise.png");
+  background-color: #dedede;
+  background-image: url(assets/images/noise.png);
   background-position: 0 0, 0 0;
   background-size: auto, 100% auto;
   background-repeat: repeat, repeat-y;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.375;
   color: #1F1E1E;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.375;
   overflow-x: hidden;
+  padding-top: 147px;
 }
 .main {
   -webkit-box-flex: 1;
@@ -53,7 +54,6 @@ body {
 a {
   color: #1F1E1E;
   outline: none;
-  text-decoration: none;
 }
 img {
   max-width: 100%;
@@ -360,4 +360,10 @@ img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+.display-none {
+  display: none;
+}
+.color-red {
+  color: #bc3324;
 }
