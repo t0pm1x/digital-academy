@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ae7557b-860b-452b-8139-e7d4fec7feb6" name="Changes" comment="">
+    <list default="true" id="8ae7557b-860b-452b-8139-e7d4fec7feb6" name="Changes" comment="Подключены стили">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/nirvana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/sade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/stuff.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/Nirvana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/Subtract.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/events.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svg-sprite/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg-sprite/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Nirvana.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/blocks/event-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/event-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/event.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/event.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/blocks/page-footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/page-footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/page-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/page-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global/common.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global/fonts.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global/fonts.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/vendor/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blocks/page-footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blocks/page-footer.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/t0p_m/Documents/DigitalAcademy/src/assets/images",
+    "last_opened_file_path": "C:/Users/t0p_m/WebstormProjects/Soft-crystal",
     "list.type.of.created.stylesheet": "Less",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
@@ -103,8 +99,32 @@
       <workItem from="1675139234941" duration="326000" />
       <workItem from="1675139575740" duration="874000" />
       <workItem from="1675346764357" duration="5051000" />
-      <workItem from="1676541171668" duration="5212000" />
+      <workItem from="1676541171668" duration="9816000" />
+      <workItem from="1676782272504" duration="34000" />
+      <workItem from="1676782334104" duration="5009000" />
+      <workItem from="1676793653193" duration="596000" />
+      <workItem from="1676794437999" duration="449000" />
+      <workItem from="1676794903383" duration="778000" />
+      <workItem from="1677740460539" duration="9850000" />
+      <workItem from="1678011901007" duration="9000" />
+      <workItem from="1678028442635" duration="623000" />
+      <workItem from="1678178247976" duration="199000" />
     </task>
+    <task id="LOCAL-00001" summary="Подключены стили">
+      <created>1676547132818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676547132818</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Подключены стили">
+      <created>1676547180176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676547180176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Подключены стили" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подключены стили" />
   </component>
 </project>

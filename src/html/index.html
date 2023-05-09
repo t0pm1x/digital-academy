@@ -8,12 +8,27 @@
         <main class="main">
             <div class="home">
                 <!-- прочая разметка -->
+                @@include('blocks/promo.html', {"class": "home__promo"})
+                @@include('blocks/callButton.html', {"class": "home__callButton"})
+                @@include('blocks/aboutUs.html', {"class": "home__aboutUs"})
+                @@include('blocks/event-swiper.html', {"class": "home__events"})
                 <!-- prettier-ignore -->
                 @@include('blocks/blog-listing.html', {"class": "home__listing"})
                 <!-- прочая разметка -->
+                @@include('blocks/contacts.html', {"class": "home__contacts"})
+                @@include('blocks/quote.html')
             </div>
-        </main>
+        </main> 
+
 
         @@include('blocks/page-footer.html')
+
+        @@include('blocks/event-pp.html')
+
+        <script src="scripts/jquery-3.6.4.min.js"></script>
+        <script src="scripts/jquery.selectric.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+        <script src="scripts/swiper.min.js"></script>
+        <script src="scripts/main.min.js"></script>
     </body>
  </html>

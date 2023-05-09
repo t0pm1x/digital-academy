@@ -1,40 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
-  @@include('blocks/head.html')
+@@include('blocks/head.html')
+
 <body class="body">
-
   @@include('blocks/page-header.html')
-
-  <main class="main">
-    <div class="events">
-      <section class="events__listing listing">
-        <h2 class="listing__section-title section-title">Мероприятия</h2>
-        <div class="listing__events-list">
-          <!-- prettier-ignore -->
-          @@loop('blocks/event-card.html', [
-          {
-          "class": "listing__event-card",
-          "img": "assets/images/events/nirvana.jpg",
-          "alt": "nirvana",
-          "title": "Собираемся и слушаем альбом Nirvana",
-          "descr": "Это третий альбом группы...",
-          "time": "07.12.2022 | начало 18.00",
-          "datetime": "2022-12-07T18:00"
-          },
-          {
-          "class": "listing__event-card",
-          "img": "assets/images/events/stuff.jpg",
-          "alt": "stuff",
-          "title": "Есть тема, нужно обсудить с HowStuffWorks",
-          "descr": "Один из самых популярных подкастов в мире...",
-          "time": "14.12.2022 | начало 18.30",
-          "datetime": "2022-12-14T18:30"
-          }
-          ])
+    <main class="page-main">
+        <div class="breadcrumbs">
+          <a href="index.html" class="breadcrumbs__item">Главная</a>
+          <a class="breadcrumbs__item breadcrumbs__item--last">Мероприятия</a>
         </div>
-      </section>
-    </div>
-  </main>
-  @@include('blocks/page-footer.html')
+        <div class="events">
+            @@include('blocks/events-listing.html', {"class": "events__listing"})
+            @@include('blocks/tariffs-table.html', {"class": "events__tariffs"})
+            @@include('blocks/callButton.html', {"class": "events__callButton"})
+            @@include('blocks/info.html', {"class": "events__info"})       
+          </div>
+    </main>
+  @@include('blocks/page-footer.html', {"class": ""})
+  @@include('blocks/event-pp.html')
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/jquery.selectric.min.js"></script>
+  <script src="scripts/air-datapicker.js"></script>
+  <script src="scripts/jquery.mask.min.js"></script>
+  <script src="scripts/jquery.validate.js"></script>
+  <script src="scripts/jquery.validate-init.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,5 @@
 {
-  "name": "didgital_cademy",
+  "name": "didgital_academy",
   "version": "1.0.0",
   "description": "course junior front-end developer",
   "author": "litivnenko.ilya7@gmail.com",
@@ -31,6 +31,7 @@
     "start": "gulp start"
   },
   "dependencies": {
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "jquery": "^3.6.4"
   }
 }
