@@ -1,252 +1,148 @@
 .pp {
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 90px 95px 50px;
-    background-color: rgba(28, 27, 27, 0.4);
-    backdrop-filter: blur(50px);
-    overflow-y: auto;
-    z-index: 110;
-    display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 110;
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  min-width: 1200px;
+  padding: 90px 95px 50px;
+  background-color: fade(@black, 40%);
+  overflow-y: auto;
 
-    &__wrapper {
-      box-sizing: border-box;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      max-width: 1210px;
-      margin: auto;
-      background-color: @gray;
-      background-image: url(../assets/images/noise.png);
-      background-position: 0 0;
-      background-size: auto;
-      background-repeat: repeat;
-    }
+  @media @bw1660 {
+    min-width: 1144px;
+    padding: 90px 98px 50px;
+  }
 
-    &__container {
-      box-sizing: border-box;
-      width: 100%;
-      max-width: 950px;
-      margin: 0 auto;
-      padding: 0 40px 40px;
-    }
-    &__sticky-close {
-        position: sticky;
-        top: 0;
-        align-self: flex-end;
-        width: 0;
-        height: 0;
-    }
-    &__x-btn {
-        position: absolute;
-        top: -30px;
-        right: -30px;
-    }
-    &__title {
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        margin: -40px 0 70px -85px;
-        padding: 10px 85px;
-        width: 595px;
-        min-height: 80px;
-        background-color: @black;
-        text-transform: uppercase;
-        font-weight: 400;
-        font-family: @font2;
-        font-size: 22px;
-        line-height: 1.36;
-        color: @white;
-        letter-spacing: 0.02em;
-        z-index: 1;
+  @media @bw1340 {
+    min-width: 688px;
+    padding: 72px 40px 50px;
+  }
+
+  @media @bw768 {
+    min-width: 280px;
+    padding: 80px 20px 50px 20px;
+  }
+
+  @supports (backdrop-filter: blur(50px)) {
+    & {
+      background-color: rgba(28, 27, 27, 0.4);
+      backdrop-filter: blur(50px);
     }
   }
 
-  .field {
-    display: flex;
-    flex-direction: column;
-                
-    &__input,
-    &__textarea {
-      box-sizing: border-box;
-      display: block;
-      width: 100%;
-      border: none;
-      border-radius: 5px;
-      background-color: @white;
-      font-size: 16px;
-      line-height: 1.375;
-    }
-
-    &__input {
-      height: 55px;
-      padding: 0 20px;
-    }
-
-    &__textarea {
-      height: 150px;
-      padding: 20px;
-    }
-
-    &__select {
-      box-sizing: border-box;
-      display: block;
-      width: 100%;
-      height: 55px;
-      padding: 0 20px;
-      border: none;
-      border-radius: 5px;
-      background-color: @white;
-      font-size: 16px;
-      line-height: 1.375;
-    }
-
-    &__title {
-      display: block;
-      margin: 0 0 10px;
-      color: @black;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 25px;
-    }
-
-    &__label {
-      display: block;
-      margin-bottom: 5px;
-      font-size: 16px;
-      line-height: 1.3;
-      color: @black;
-    }
-  }
-
-  .radio {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-    &__item {
-      box-sizing: border-box;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-bottom: 15px;
-      min-height: 23px;
-      padding-left: 23px;
-      color: @black;
-      cursor: pointer;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-
-    &__input {
-      .is-hidden();
-
-      &:checked {
-        &~.radio__mark {
-          background-color: @black;
-        }
-      }  
-    }
-
-    &__mark {
-      box-sizing: border-box;
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 23px;
-      height: 23px;
-      border: 2px solid @black;
-      border-radius: 50%;
-      padding: 3px;
-      background-clip: content-box;
-      background-color: transparent;
-      transition: background-color 0.2s;
-    }
-
-    &__label {
-      margin-left: 20px;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 22px;
-    }
-  }
-
-  .check {
-    box-sizing: border-box;
+  &__wrapper {
     position: relative;
-    display: inline-flex;
+    box-sizing: border-box;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    min-height: 24px;
-    padding-top: 2px;
-    padding-left: 24px;
-    color: @black;
-    cursor: pointer;
+    width: 100%;
+    max-width: 1210px;
+    margin: auto;
+    background-color: @gray;
+    background-image: url(../assets/images/noise.png);
+    background-position: 0 0;
+    background-size: auto;
+    background-repeat: repeat;
 
-    &__input {
-      .is-hidden();
-
-      &:checked {
-        & ~ .check__mark {
-          background-color: @black;
-
-          &::after {
-            content: "";
-            display: block;
-            position: absolute;
-            left: 7px;
-            top: 2px;
-            width: 6px;
-            height: 12px;
-            border-bottom: 2px solid @white;
-            border-right: 2px solid @white;
-            transform: rotate(45deg);
-          }
-        }
-      }
+    @media @bw1660 {
+      max-width: 1144px;
     }
 
-    &__mark {
-      box-sizing: border-box;
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 24px;
-      height: 24px;
-      border: 1px solid @black;
+    @media @bw1340 {
+      max-width: 688px;
     }
 
-    &__label {
-      margin-left: 15px;
-      font-weight: 300;
-      font-size: 16px;
-      line-height: 22px;
-      &--s {
-        font-size: 14px;
-        line-height: 19px;
-      }
+    @media @bw768 {
+      max-width: 100%;
     }
   }
 
-  .is-hidden {
-    position: absolute !important;
-    width: 0 !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-    clip: rect(0 0 0 0) !important;
-    clip-path: inset(100%) !important;
-    white-space: nowrap !important;
-    overflow: hidden !important;
-    visibility: hidden !important;
-    pointer-events: none !important;
+  &__container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 40px 40px;
+
+    @media @bw768 {
+      padding: 0 20px 33px;
+    }
   }
+
+  &__sticky-close {
+    position: relative;
+    top: 0;
+    align-self: flex-end;
+    width: 0;
+    height: 0;
+  }
+
+  &__x-btn {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+
+    @media @bw1340 {
+      right: -3px;
+    }
+
+    @media @bw768 {
+      top: -17px;
+      right: -18px;
+    }
+
+    &:hover {
+      @media (hover: hover) {
+        cursor: pointer;
+      }
+    }
+
+    &:active {
+      cursor: pointer;
+    }
+  }
+
+  &__title {
+    box-sizing: border-box;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    margin: -44px 0 70px -81px;
+    padding: 10px 82px;
+    width: 595px;
+    min-height: 80px;
+    background-color: @black;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: @font2;
+    font-size: 1.375rem;
+    line-height: 1.36;
+    color: @white;
+    letter-spacing: 0.02em;
+
+    @media @bw1660 {
+      margin: -40px 0 70px -51px;
+      padding: 10px 85px;
+    }
+
+    @media @bw1340 {
+      width: 465px;
+      margin: -40px 0 70px -27px;
+      padding: 10px 70px 10px 19px;
+    }
+
+    @media @bw768 {
+      width: 225px;
+      min-height: 77px;
+      margin: -28px 0 40px -6px;
+      padding: 9px 22px 10px 20px;
+      font-size: 0.875rem;
+    }
+  }
+}
