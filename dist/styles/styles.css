@@ -187,8 +187,8 @@ textarea:focus::placeholder {
   width: 100%;
   max-width: 1414px;
   margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
   /*на главной странице не используется*/
 }
 .listing__container {
@@ -514,13 +514,13 @@ textarea:focus::placeholder {
 .events__tariffs {
   margin-bottom: 51px;
 }
-.events__callButton {
+.events__choice {
   margin-bottom: 75px;
 }
-.events__callButton .callButton__title {
+.events__choice .choice__title {
   margin-bottom: 50px;
 }
-.events__callButton .callButton__buttons {
+.events__choice .choice__button {
   min-width: 246px;
 }
 .events .listing__events-list {
@@ -4651,7 +4651,7 @@ button.swiper-pagination-bullet {
   .events__tariffs {
     margin-bottom: 42px;
   }
-  .events__callButton .callButton__buttons {
+  .events__choice .choice__button {
     margin: 0 53px 25px;
   }
   .events .listing__events-list {
@@ -4997,7 +4997,7 @@ button.swiper-pagination-bullet {
   .events__tariffs {
     margin-bottom: 45px;
   }
-  .events__callButton .callButton__buttons {
+  .events__choice .choice__button {
     min-width: 238px;
     margin: 0 27px 25px 30px;
     padding: 13px 49px 13px 50px;
@@ -5795,13 +5795,13 @@ button.swiper-pagination-bullet {
   .events__tariffs {
     margin-bottom: 40px;
   }
-  .events__callButton {
+  .events__choice {
     margin-bottom: 63px;
   }
-  .events__callButton .callButton__title {
+  .events__choice .choice__title {
     margin-bottom: 25px;
   }
-  .events__callButton .callButton__buttons {
+  .events__choice .choice__button {
     margin: 0 auto 25px;
     padding: 14px 49px;
   }
